@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AI Web App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>AI Web Filter</h1>
+        <p>Select the filter and see real-time virtual effect!</p>
+        <div class="controls">
+            <button id="grayscale-btn">Grayscale</button>
+            <button id="invert-btn">Invert</button>
+            <button id="sepia-btn">Sepia</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div id="canvas-container"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
